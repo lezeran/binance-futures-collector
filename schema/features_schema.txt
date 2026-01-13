@@ -1,0 +1,24 @@
+RETURNS & MOMENTUM:
+ret_1, ret_4, ret_16, ret_64, logret_1, logret_4, logret_16, logret_64, cumret_16, cumret_64, ret_z_20, ret_z_50, momentum_ratio_16_64, gap_ret
+CANDLE:
+range, range_pct, body, body_abs, body_pct, upper_wick, lower_wick, wick_ratio_up, wick_ratio_dn, close_pos, hl2, ohlc4, true_range
+VOLATILITY:
+atr_14, atr_28, atr_pct_14, atr_pct_28, vol_std_20, vol_std_50, vol_z_50, range_z_50, vol_of_vol_50, parkinson_vol_50, gk_vol_50, rs_vol_50
+DRAWDOWN/RISK:
+dd_50, mdd_50, dd_duration_50, liq_risk_proxy, noise_ratio_50
+TREND/MA:
+sma_20, sma_50, ema_20, ema_50, ema_100, dist_sma_20, dist_sma_50, dist_ema_20, dist_ema_50, dist_ema_100, ema_slope_20, ema_slope_50, ema_slope_100, ema_cross_20_50, ema_cross_50_100, price_above_ema50, trend_strength
+STRUCTURE:
+hh_20, ll_20, hh_50, ll_50, breakout_up_20, breakout_dn_20, donch_width_20, donch_width_50, close_vs_hh20, close_vs_ll20
+BOLLINGER:
+bb_mid_20, bb_up_20, bb_dn_20, bb_width_20, bb_percentB_20, bb_compression_50, range_compression_50
+VOLUME/TRADES:
+vol_sma_20, vol_sma_50, vol_z_20, vol_z_50, trades_sma_20, trades_z_20, volume_per_trade, quote_per_trade, activity_regime, volume_expansion_flag
+TAKER/FLOW:
+taker_buy_ratio, taker_sell_ratio, taker_delta_base, taker_delta_pct, taker_delta_z_20, taker_delta_z_50, cum_taker_delta, cum_taker_delta_slope, delta_vs_return_div, buyer_dominance_flag, seller_dominance_flag, absorption_flag, exhaustion_flag, stop_hunt_proxy
+OSCILLATORS:
+rsi_14, rsi_28, rsi_slope, stoch_k_14, stoch_d_14, williams_r_14, cci_20, roc_20, macd_hist, trix_15
+STATS/REGIME:
+skew_ret_50, kurt_ret_50, autocorr_lag1_100, autocorr_lag4_100, entropy_ret_100, trend_persistence_50, meanrev_score_20, chop_index_14
+TIME:
+hour_of_day, day_of_week, is_weekend
